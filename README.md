@@ -1,3 +1,3 @@
 # important-message
-[important message] (important-message/index.html)
+[important message] (https://github.com/ponchique/important-message/)
 
