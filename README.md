@@ -1,3 +1,3 @@
 # important-message
-[important message] (https://github.com/ponchique/important-message/)
+[important message] (http://ponchique.github.io/important-message/)
 
