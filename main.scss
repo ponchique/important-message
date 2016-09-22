@@ -1,0 +1,128 @@
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
+$canvas :#22231C;
+$words : #00DAF0;
+$housing : #292928;
+$timer: #ff1493;
+
+
+html, body {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $canvas;
+  color: $words;
+  overflow: hidden;
+}
+
+.main  {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+b {
+  text-shadow: 0 0 30px #fff;
+  animation: blink 2s 10s infinite;
+}
+
+sub {
+  font-size: 9px;
+  font-family: 'Press Start 2P';
+}
+
+.dash {
+  width:40px;
+  height: 13px;
+  background: $words;
+  display: inline-block;
+  margin: 5px 7px;
+}
+
+.panel {
+  height: 20vh;
+  width: 500%;
+  font-size: 3em;
+  position: absolute;
+  top: 40vh;
+  line-height: 20vh;
+  background: $housing;
+
+  .stroke {
+    position: absolute;
+    left: 28%;
+    animation: move linear 40s infinite ;
+  }
+}
+
+.timer {
+   width:100%;
+  color: $timer;
+  position: absolute;
+  top:0;
+  padding-top: 15vh;
+  text-align: center;
+  font-size: 7em;
+  font-family: 'Press Start 2P';
+  animation: puf 3s;
+  visibility: hidden;
+}
+
+@keyframes move {
+    to {
+      left:-30%;
+    }
+}
+
+@keyframes blink {
+0% {
+  opacity: 0;
+}
+  10% {
+    opacity: 1;
+  }
+  13% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  21% {
+    opacity: 1;
+  }
+  23% {
+    opacity: 1;
+  }
+  24% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  41% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 0;
+  }
+
+}
+
+@keyframes puf {
+  from {
+    visibility: visible;
+  }
+}
