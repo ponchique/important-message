@@ -7,9 +7,10 @@
 var stroke = document.getElementById('stroke')
 var timer = document.getElementById('timer')
 
-var p = '&nbsp;&#9679;&nbsp;'
-var d = '&nbsp;&#8211;&nbsp;'
-var s = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+var p = '&nbsp;&#9679;&nbsp;';
+var d = '&nbsp;&#8211;&nbsp;';
+var s = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+var ss = '&nbsp;';
 var b = '<b>';
 var bc = '</b>';
 var sb = '<sub>';
