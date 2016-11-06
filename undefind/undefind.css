@@ -35,10 +35,26 @@ span {
     font-size:3.6em;
 }
 
-.purpule {
-    color:purpule;
+.purple {
+    color:purple;
 }
+
 .red {
     color:red;
 }
 
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
