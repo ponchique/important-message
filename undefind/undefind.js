@@ -13,45 +13,24 @@ for ( var i = 0; i < 40; i++) {
         return Math.floor(Math.random() * (6));
     }
 
-    span.className = classes.paddings[random()]
+    span.className = (classes.paddings[random()] + ' hide-color');
     span.innerHTML = classes.text[random()];
 
     for (var y = 0; y < classes.text.length; y++) {
     if (span.innerHTML == classes.text[y]) {
-    span.className = classes.colors[y];
+    span.style.color = classes.colors[y];
       }
     }
      main.appendChild(span)
     }
-
-    
-
 
 
 function setColor (event) {   
         var current = random();
         var elem = event.target
         var text = elem.innerHTML
-        console.log(elem.className)
-
-        
-        var currentClass = document.querySelectorAll("." + elem.className)
-        console.log(currentClass)
-        for (var i = 0; i < currentClass.length; i++) {
-            console.log(elem.innerHTML)
-            if (elem.innerHTML == classes.text[0])
-            currentClass[i].style.color = classes.colors[0];
-            if (elem.innerHTML == classes.text[1])
-            currentClass[i].style.color = classes.colors[1];
-            if (elem.innerHTML == classes.text[2])
-            currentClass[i].style.color = classes.colors[2];
-            if (elem.innerHTML == classes.text[3])
-            currentClass[i].style.color = classes.colors[3];
-            if (elem.innerHTML == classes.text[4])
-            currentClass[i].style.color = classes.colors[4];
-            if (elem.innerHTML == classes.text[5])
-            currentClass[i].style.color = classes.colors[5];
-        }
+        elem.classList.splice(1,1)
+        console.log(elem.classList)
       
         
     }

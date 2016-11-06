@@ -11,6 +11,11 @@ span {
     color:white;
     margin:25px;
 }
+
+.hide-color {
+    color:white !important;
+}
+
 .font-1 {
     font-size:2em;
 }
