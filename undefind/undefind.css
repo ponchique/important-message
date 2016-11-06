@@ -1,0 +1,36 @@
+body {
+    background:black;
+}
+
+#main {
+    text-align:center;
+}
+
+span {
+    font-family:"Open Sans", Sans-Serif;
+    color:white;
+    margin:25px;
+}
+.font-1 {
+    font-size:2em;
+}
+
+.font-2 {
+    font-size:2.3em;
+}
+
+.font-3 {
+    font-size:2.6em;
+}
+
+.font-4 {
+    font-size:3em;
+}
+
+.font-5 {
+    font-size:3.3em;
+}
+
+.font-6 {
+    font-size:3.6em;
+}
