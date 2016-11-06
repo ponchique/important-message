@@ -10,6 +10,7 @@ span {
     font-family:"Open Sans", Sans-Serif;
     color:white;
     margin:25px;
+    cursor:pointer;
 }
 
 .hide-color {
